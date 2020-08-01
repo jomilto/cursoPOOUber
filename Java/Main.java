@@ -1,9 +1,8 @@
 class Main {
     public static void main(String[] args) {
-        Car car = new Car();
+        Account driver = new Account("Enrique Perez", "EP21222");
+        Car car = new Car("ASDAS1212", driver);
         car.id = 123;
-        car.license = "ASDAS1212";
-        car.driver = "Enrique Perez";
         car.passengers = 4;
         car.printDataCar();
     }
