@@ -13,7 +13,7 @@ class Account {
     }
 
     public function printDataAccount(){
-        echo "Nombre: " + $this->name + "Documento: " + $this->document;
+        echo "Nombre: " . $this->name . "Documento: " . $this->document;
     }
 }
 
